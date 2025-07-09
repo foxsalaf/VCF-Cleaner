@@ -22,15 +22,15 @@ def nettoyer_vcf(input_path, output_path):
             current_block = []
 
         elif line_stripped.startswith('PHOTO'):
-            in_photo_block = True  # Commencer à skipper le bloc photo
+            in_photo_block = True
 
         elif in_photo_block:
             if line_stripped == '':
-                in_photo_block = False  # Fin du bloc photo sur ligne vide
+                in_photo_block = False
             continue
 
         elif any(line_stripped.startswith(prefix) for prefix in ['NOTE', 'item1.URL', 'item1.X-ABLabel', 'ORG:', 'TITLE:', 'PRODID', 'VERSION', 'LABEL', 'ADR', 'BDAY', 'IMPP']):
-            continue  # Ignorer ces lignes
+            continue
 
         else:
             current_block.append(line)
@@ -42,6 +42,6 @@ def nettoyer_vcf(input_path, output_path):
 
     print(f"Fichier nettoyé créé : {output_path}")
 
-# à modifier et ajouter votre répertoire :
+# À modifier avec vos chemins :
 nettoyer_vcf(r'C:\Users\votrechemin\votrefichierlourdexporterdepuisvotresmartphone.vcf',
              r'C:\Users\votrechemin\fichier_nettoye.vcf')
