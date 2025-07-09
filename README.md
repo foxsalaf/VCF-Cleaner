@@ -70,3 +70,7 @@ __pycache__/
 ```
 
 Ce fichier permet d'éviter d'inclure les fichiers temporaires, personnels ou inutiles dans le dépôt GitHub.
+
+Screenshots : 
+![1000 contact](https://github.com/user-attachments/assets/28ea506f-c143-4d3e-93c4-b3e33ae8005a)
+![25000 contact](https://github.com/user-attachments/assets/78da563f-23cc-4c47-a0b2-3bfdc6cd6bf7)
