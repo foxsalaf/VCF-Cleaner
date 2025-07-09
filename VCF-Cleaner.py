@@ -43,5 +43,5 @@ def nettoyer_vcf(input_path, output_path):
     print(f"Fichier nettoyé créé : {output_path}")
 
 # À modifier avec vos chemins :
-nettoyer_vcf(r'C:\Users\votrechemin\votrefichierlourdexporterdepuisvotresmartphone.vcf',
+nettoyer_vcf(r'C:\Users\votrechemin\contacts_export_smartphone.vcf',
              r'C:\Users\votrechemin\fichier_nettoye.vcf')
