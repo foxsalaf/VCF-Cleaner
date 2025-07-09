@@ -73,6 +73,6 @@ Ce fichier permet d'éviter d'inclure les fichiers temporaires, personnels ou in
 
 Screenshots : 
 ![image](https://github.com/user-attachments/assets/1557357e-ddfe-41a3-b189-2c27fc658657)
-![image](https://github.com/user-attachments/assets/e97e53de-92e9-4857-b3a2-336209f44662)
+![image](https://github.com/user-attachments/assets/2c811ebd-3587-481c-86be-59003970d98a)
 
 
