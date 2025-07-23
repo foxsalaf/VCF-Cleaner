@@ -25,6 +25,16 @@ Ce script automatise le nettoyage pour un import propre dans Google Contacts, Ou
 * Suppression des contacts sans numéro de téléphone (`TEL`)
 * Conservation des blocs structurés
 
+## .gitignore :
+
+```
+__pycache__/
+*.pyc
+*.log
+*.vcf
+.env
+```
+
 ## Utilisation :
 
 ### Prérequis :
@@ -59,16 +69,5 @@ python nettoyage_vcf.py
 
 Licence : MIT — Libre pour un usage personnel ou professionnel sans garantie.
 
-## .gitignore suggéré :
-
-```
-__pycache__/
-*.pyc
-*.log
-*.vcf
-.env
-```
-
-Ce fichier permet d'éviter d'inclure les fichiers temporaires, personnels ou inutiles dans le dépôt GitHub.
 
 
